@@ -38,12 +38,10 @@ class _MyHomePageState extends State<MyHomePage> {
   void joinCall() {
     final callId = callIdController.text.trim();
     if (callId.isEmpty) return;
-
     Navigator.push(
       context,
       MaterialPageRoute(builder: (_) => CallingPage(callId: callId)),
     );
-
     callIdController.clear();
   }
 

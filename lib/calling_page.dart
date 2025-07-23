@@ -5,7 +5,7 @@ import 'constant.dart';
 
 class CallingPage extends StatelessWidget {
   final String callId;
-  final int userId = Random().nextInt(1000000); // unique per session
+  final int userId = Random().nextInt(1000000);
 
   CallingPage({super.key, required this.callId});
 
