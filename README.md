@@ -89,4 +89,4 @@ ZegoUIKitPrebuiltCallConfig.groupVideoCall()
 
 ---
 
-**Built with Flutter ❤️**
+**Built with ❤️ and Flutter **
